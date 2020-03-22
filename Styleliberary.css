@@ -1,0 +1,163 @@
+/* General body style*/
+body {backgroud-color:#9DC0BC;
+font-family: 'Roboto Mono', monospace;
+text-align: center;}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add a background color to the top navigation */
+#topnav {
+  background-color: #9DC0BC;
+  overflow: hidden;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+
+/* Style the links inside the navigation bar */
+#topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+#topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+#topnav a.active {
+  background-color:#9DC0BC ;
+  color: white;
+}
+
+/* home part design */
+#home {
+color:white;
+height:300px;
+text-align: left;
+background-image:linear-gradient(135deg,rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(https://images.unsplash.com/photo-1455459182396-ae46100617cb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80.jpg);
+max-width: 100%
+background-size: cover;
+position:relative;
+background-position: center;
+}
+
+#profilephoto {
+border-radius: 50%;
+width:150px;
+position:absolute;
+top: 60px;
+left:30px;
+}
+
+#hello{font-size: 40px;
+	font-weight: lighter;
+position:absolute;
+left:200px;
+top:80px;
+}
+
+#intro {
+position:absolute;
+left: 200px;
+top: 120px;
+opacity: 0.9;
+}
+
+#description {
+position:absolute;
+left: 200px;
+top: 160px;
+font-weight: lighter;
+opacity: 0.9;
+}
+
+/* about me style */
+.about{background-color:#9DC0BC;
+padding:20px;}
+
+/* skills cards style */
+* {box-sizing:border-box;}
+
+.skills {background-color:#9DC0BC;
+	padding:20px;
+}
+
+* {box-sizing: border-box;}
+
+/* Float four columns side by side */
+.column{ float : left;
+width:20%;
+padding 10 20px; }
+
+/* Remove extra left and right margins, due to padding in columns */
+.row{margin:0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.card{
+	background-color:white;
+	text-align: center
+	padding:10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin:5px;
+	height:300px;
+	position:relative;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+
+@media screen and (max-width:1000px){
+	.column{
+		width:50%;
+		display:block;
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width:500px){
+	.column{
+		width:100%;
+		display:block;
+		margin-bottom:20px;
+	}
+}
+
+.list{text-align:left;
+position:absolute;
+top: 130px;}
+
+.icons {width:60px;
+padding:10px;}
+
+/* Resume part */
+.resume {background-color:#9DC0BC;
+text-align: left;
+padding: 20px;}
+
+/* contact part */
+.contact {background-color:#9DC0BC;
+padding:10px; 
+text-align: left;
+color:white;}
+
+
+.iconref {font-size: 10px}
+
+/* footer design */
+
+
+
+
